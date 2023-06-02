@@ -1,0 +1,85 @@
+.container{
+  margin-top: 30px;
+  height: 750px;
+  width: 700px;
+  border: 1.5px solid rgba(240, 237, 237, 0.733);
+  font-size: small;
+}
+
+input{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 20px;
+  padding-left: 5px;
+}
+
+.clip-star {
+  background: gold;
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  margin-top: 3px;
+}
+p{
+  margin-right: 20px;
+}
+
+.control-label ::after{
+  content: red "*";
+}
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+ .rating {
+     width: 208px;
+     height: 40px;
+     margin: 0 auto;
+     padding: 40px 50px;
+     
+}
+ .rating label {
+     float: right;
+     position: relative;
+     width: 40px;
+     height: 40px;
+     cursor: pointer;
+}
+ .rating label:not(:first-of-type) {
+     padding-right: 2px;
+}
+ .rating label:before {
+     content: "\2605";
+     font-size: 42px;
+     color: #ccc;
+     line-height: 1;
+}
+ .rating input {
+     display: none;
+}
+ .rating input:checked ~ label:before, .rating:not(:checked) > label:hover:before, .rating:not(:checked) > label:hover ~ label:before {
+     color: #f9df4a;
+}
+
+
+
+
+.both{
+   
+    display: flex;
+}
+.red{
+    color:red;
+}
+.name .red{
+    display: inline;
+}
